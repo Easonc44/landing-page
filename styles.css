@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+.header, .footer, .body1 {
+    background: #1f2937;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.white {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    color: #e5e7eb;
+}
+a {
+    text-decoration: none;
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+  .heromain {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+  }
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 440px;
+  }
+  .hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7Eb;
+  }
+  button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    font-family: 'roboto';
+    width: 75px;
+    length: 50px;
+    font-size: 16px;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  .body2 {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+  } 
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+  }
+  .body3 {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+  }
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoted {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+    font-weight: bolder;
+}  
+.body4 {
+    padding: 100px 200px;
+}
+.box {
+    background-color: #3882f6;
+    padding: 35px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.call {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.signup {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.footertext {
+    color: white;
+}
+.footer {
+    padding: 25px 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
